@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Heebo&family=Inter&family=Montserrat&family=Noto+Sans+Meroitic&family=Poppins:wght@400;500&family=Roboto&family=Rubik:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: 	#222427;
+}
+
+body {
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.nav-container {
+    padding-top: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+nav {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #2C2F33;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    border-radius: 3vh;
+}
+.bot {
+    margin-bottom: 2%;
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+}
+
+.horizontal-list {
+    padding-left: 10%;
+    list-style: none;
+    display: flex; /* Make the list items inline */
+    gap: 10px; /* Add some spacing between list items */
+}
+
+.horizontal-list li {
+    transition: ease-in-out 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 10px; /* Add padding for styling */
+    background-color: #282b30; /* Add background color for each list item */
+    color: #fff; /* Text color */
+    border-radius: 5px; /* Rounded corners for each list item */
+}
+
+li:hover {
+    background-color: #36393e;
+    transition: ease-in-out 0.3s;
+}
+
+.right-content {
+    /* You can add styling for the right content if needed */
+}
+
+.button {
+    background-color: #ffffff00;
+    color: #fff;
+    width: 8.2em;
+    height: 2.9em;
+    border: #5464f4 0.2em solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.6s ease;
+    background-color: #5464f4;
+  }
+  
+  .button:hover {
+    background-color: #3654ff13;
+    cursor: pointer;
+    transform: translateY(-2px);
+  }
+  
+  .button svg {
+    width: 1.6em;
+    margin: -0.2em 0.8em 1em;
+    position: absolute;
+    display: flex;
+    transition: all 0.6s ease;
+  }
+  
+
+  
+  .text {
+    font-family: 'Rubik', sans-serif;
+    margin-right: 10%;
+  }
+
+
+  .flexbox-container {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox-item {
+    margin: 10px;
+
+}
+
+.flexbox-item-1 {
+    width: 40%;
+    min-height: 700px;
+}
+
+.flexbox-item-1 h1 {
+    margin-left: 20%;
+    font-size: 98px;
+    font-family: 'Poppins',sans-serif;
+    color: #5464f4;
+}
+.flexbox-item-1 p {
+    margin-left: 20%;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+    color: #fafafa8a;
+    padding-bottom: 3%;
+}
+
+.flexbox-item-2 {
+    width: 40%;
+    min-height: 700px;
+}
+
+.code {
+    transition: all 0.6s ease;
+}
+
+.code:hover {
+    transform: translateY(-4px);
+    transition: all 0.6s ease;
+}
+
+
+.discord-server {
+    font-family: 'Poppins',sans-serif;
+    background-color: #5464f4;
+    padding: 10px;
+    border-radius: 1vh;
+    margin-left: 20%;
+    border: #5464f4 0.2em solid;
+    color: white;
+    transition: all 0.6s ease;
+}
+
+.discord-server:hover{
+    cursor: pointer;
+    background-color: #3654ff13;
+    transform: translateY(-2px);
+    transition: all 0.6s ease;
+}
+
+.dashboard {
+    font-family: 'Poppins',sans-serif;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 1vh;
+    margin-left: 2%;
+    border: #ffffff 0.2em solid;
+    color: rgb(8, 8, 8);
+    transition: all 0.6s ease;
+}
+
+.dashboard:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #00000013;
+    transform: translateY(-2px);
+    transition: all 0.6s ease;
+}
